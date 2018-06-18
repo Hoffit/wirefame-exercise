@@ -1,65 +1,18 @@
 body {
-  background-color: rgba(0, 250, 154, 0.5);
+  background-color: rgb(#fff);
+  text-align: center;
+  width: 1000px;
 }
 
-/*Several fonts (lab instructions included)*/
-/*1. A custom Google font for highlights*/
 h1 {
   font-family: 'Lobster', cursive;
   font-size: xx-large;
   color: salmon;
   padding: 15px 5px 15px 5px;
 }
-h2, h3, h4 {
-  font-family: 'Lobster', cursive;
-  color: salmon;
-  font-size: large;
-  padding: 10px 5px 10px 5px;
-}
 
-legend {
-  font-family: 'Lobster', cursive;
-  color: salmon;
-  font-size: large;
-  padding:50px 5px 10px 5px;
-}
-h5 {
-  font-family: 'Lobster', cursive;
-  color: salmon;
-  font-size: small;
-  padding: 10px 5px 10px 5px;
-}
-/*2. A san-serif web font for data*/
-td {
-  font-family: 'Helvetica', sans-serif;
-  color:blue;
-  font-size: small;
-  padding: 1px 5px 1px 15px;
-}
-/*3. A serif web font for text*/
-.text {
-  font-family: 'Times', serif;
-  font-size: medium;
-  color: black;
-  padding: 0% 25%;
-}
-
-body {
-  text-align: center
-}
-
-img.brand {
-  opacity: 1.0;
-  height: 75px;
-}
-
-table, th, td {
-  border: 1px solid black;
-}
-
-.location-sales-data {
-  width: 80%;
-  margin: 0 auto;/*auto will effectively center because left/right are auto (tricky)*/
+nav {
+  float: right;
 }
 
 nav ul {
@@ -67,11 +20,11 @@ nav ul {
   text-align: center;
 }
 
-nav li {
+li {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  margin: 0px 20px 0px 20px;
-  line-height: 25px;
+  margin: 0px 40px 0px 0px;
+  line-height: 70px;
 }
 
 nav a {
@@ -84,11 +37,6 @@ nav a:hover {
   background-color: #111;
 }
 
-.boxed {
-  border: 1px solid silver;
-  margin: 10px 500px;
-}
-
-img.medium {
-  height: 30px;
+.a30pxMargin {
+  margin: 0px 0px 0px 30px;
 }

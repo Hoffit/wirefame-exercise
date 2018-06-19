@@ -1,5 +1,9 @@
+.brand-logo {
+  margin: 10px 0px;
+}
+
 nav {
-  background-color: grey;
+  background-color: rgb(78, 76, 76);
 }
 
 nav ul {
@@ -16,13 +20,14 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(165, 158, 158);
   display: block;
   }
 
 nav a:hover {
   background-color: #111;
 }
+
 main {
   width: 1020px;
   margin: 0px auto;
